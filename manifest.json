@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "zapExtractor",
+	"version": "0.0.1",
+	"description": "A program that extracts the WhatsApp numbers form web pages",
+	"author": "julyohidlago0@gmail.com",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"css": ["style.css"],
+			"js": ["index.js"]
+		}
+	]
+}
